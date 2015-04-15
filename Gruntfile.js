@@ -27,7 +27,6 @@ module.exports = function(grunt) {
             target: {
                 dest: "dist/snap.svg.js",
                 src: [
-                    "./node_modules/eve/eve.js",
                     "./src/amd-banner.js",
                     "./src/mina.js",
                     "./src/svg.js",
